@@ -16,6 +16,7 @@ set(HUNTER_JOBS_NUMBER 6 CACHE STRING "Number of parallel builds used by Hunter"
 HunterGate(
     URL "https://github.com/cpp-pm/hunter/archive/v0.23.284.tar.gz"
     SHA1 "b15e14b31d96ee2e2be32187d21e2390d0b974c8"
+    LOCAL
 )
 
 project(ethminer)
